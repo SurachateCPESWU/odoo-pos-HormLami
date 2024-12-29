@@ -3008,11 +3008,14 @@ td {
 .pos .product_configurator_attributes {
     text-align: left;
     margin: 1em;
+    display: flex;
 }
 
 .pos .product_configurator_attributes .attribute {
     margin-bottom: 1em;
     padding-left: 0.5em;
+    min-width: 30%;
+    max-width: 30%;
 }
 
 .pos .product_configurator_attributes .attribute_name {
