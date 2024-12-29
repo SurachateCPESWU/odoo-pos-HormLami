@@ -123,7 +123,7 @@ td {
     padding: 0;
     margin: 0;
     background-color: #f0eeee;
-    font-family: "Lato","Lucida Grande", Helvetica, Verdana, Arial;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Lato", "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
     color: $gray-700;
     font-size: 12px;
     /* Some elements inside .pos are allowed to be moved/resized. When
@@ -1221,7 +1221,7 @@ td {
 .pos .product .product-name {
     box-sizing: border-box;
     line-height: 14px;
-    overflow: hidden;
+    // overflow: hidden;
     margin: map-get($spacers, 2);
     display: -webkit-box;
     -webkit-box-orient: vertical;
